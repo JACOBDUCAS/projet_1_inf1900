@@ -1,0 +1,5 @@
+Le code de la led ambree devrait fonctionner, mais la couleur ne se distingue pas beacoup de la couleur rouge.
+
+
+le main possède plusieurs instanciations de capteur de mur. Cela est dû au fait qu'instancier un capteur de mur au début du main ne fonctionnait pas en voulant l'utiliser dans une while loop à l'intérieur du switch case, mais en instancier un pour chanque fonction empêchait de garder la valeur de référence pour la distance de 20 cm. en effet, le tesst fait dans probleme2.cpp fonctionne parfaitement mais le copier coller dans le switch case ne marche pas.
+
